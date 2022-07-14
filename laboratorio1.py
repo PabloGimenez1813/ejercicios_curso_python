@@ -1,13 +1,13 @@
 
 """
-#Objetivos
+Objetivos
 Familiarizarse con la función print() y sus capacidades de formato.
 Experimentar con el código de Python.
 Escenario
 El comando print() , el cual es una de las directivas más sencillas de Python, 
 simplemente imprime una línea de texto en la pantalla.
 
-#En tu primer laboratorio:
+En tu primer laboratorio:
 
 Utiliza la función print() para imprimir la linea "¡Hola, Mundo!" en la pantalla.
 Una vez hecho esto, utiliza la función print() nuevamente, pero esta vez imprime tu nombre.
@@ -19,4 +19,12 @@ Experimenta tanto como puedas. Cambia las comillas dobles a comillas simples,
 utiliza múltiples funciones print() 
 en la misma línea y luego en líneas diferentes. Observa que es lo que ocurre.
 """
-print("Pablo Gimenez")
+#print("Pablo Gimenez")
+
+"""
+Hay dos cambios muy sutiles: hemos insertado
+un par extraño de caracteres dentro del texto. Se ven así: \n.
+"""
+print("La Witsi Witsi Araña\nsubió a su telaraña.\n")
+print()    
+print("Vino la lluvia\ny se la llevó.")
