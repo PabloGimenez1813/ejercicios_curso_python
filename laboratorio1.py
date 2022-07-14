@@ -25,6 +25,23 @@ en la misma línea y luego en líneas diferentes. Observa que es lo que ocurre.
 Hay dos cambios muy sutiles: hemos insertado
 un par extraño de caracteres dentro del texto. Se ven así: \n.
 """
-print("La Witsi Witsi Araña\nsubió a su telaraña.\n")
-print()    
-print("Vino la lluvia\ny se la llevó.")
+#print("La Witsi Witsi Araña\nsubió a su telaraña.\n")
+#print()    
+#print("Vino la lluvia\ny se la llevó.")
+
+"""
+Objetivos
+Familiarizarse con la función de print() y sus capacidades de formato.
+Experimentar con el código de Python.
+Escenario
+Modifica la primera línea de código en el editor, utilizando las palabras clave sep y end, para que coincida con el resultado esperado. Recuerda, utilizar dos funciones print().
+
+No cambies nada en la segunda invocación de print().
+"""
+
+print("Fundamentos","Programación","en", sep="***", end="...")
+print("Python")
+
+"""
+ejercicio resuelto
+"""
