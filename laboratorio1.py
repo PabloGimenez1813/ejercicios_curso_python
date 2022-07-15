@@ -80,8 +80,19 @@ Utilizando variables
 Se tiene permitido utilizar cuantas declaraciones 
 de variables sean necesarias para lograr el objetivo del programa, por ejemplo:
 """
-var = 1
-account_balance = 1000.0
-client_name = 'John Doe'
-print(var, account_balance, client_name)
-print(var)
+# var = 1
+# account_balance = 1000.0
+# client_name = 'John Doe'
+# print(var, account_balance, client_name)
+# print(var)
+
+"""
+El siguiente código evalúa la longitud de la hipotenusa (es decir, el lado más 
+largo de un triangulo rectángulo, el opuesto al ángulo recto) 
+utilizando el Teorema de Pitágoras:
+"""
+# a = 3.0
+# b = 4.0
+# c = (a ** 2 + b ** 2) ** 0.5
+# print("c =", c)
+
