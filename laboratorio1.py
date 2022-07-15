@@ -39,9 +39,29 @@ Modifica la primera línea de código en el editor, utilizando las palabras clav
 No cambies nada en la segunda invocación de print().
 """
 
-print("Fundamentos","Programación","en", sep="***", end="...")
-print("Python")
+#print("Fundamentos","Programación","en", sep="***", end="...")
+#print("Python")
 
 """
 ejercicio resuelto
 """
+"""
+Objetivos
+Experimentar con el código Python existente.
+Descubrir y solucionar errores básicos de sintaxis.
+Familiarizarse con la función print() y sus capacidades de formato.
+Escenario
+Recomendamos que juegues con el código que hemos escrito para ti y 
+que realices algunas correcciones (quizás incluso destructivas). Siéntete libre de modificar 
+cualquier parte del código, 
+pero hay una condición: aprende de tus errores y saca tus propias conclusiones.
+"""
+
+print("    *"*2)
+print("   * *"*2)
+print("  *   *"*2)
+print(" *     *"*2)
+print("***   ***"*2)
+print("  *   *"*2)
+print("  *   *"*2)
+print("  *****"*2)
