@@ -57,11 +57,31 @@ cualquier parte del código,
 pero hay una condición: aprende de tus errores y saca tus propias conclusiones.
 """
 
-print("    *"*2)
-print("   * *"*2)
-print("  *   *"*2)
-print(" *     *"*2)
-print("***   ***"*2)
-print("  *   *"*2)
-print("  *   *"*2)
-print("  *****"*2)
+# print("    *"*2)
+# print("   * *"*2)
+# print("  *   *"*2)
+# print(" *     *"*2)
+# print("***   ***"*2)
+# print("  *   *"*2)
+# print("  *   *"*2)
+# print("  *****"*2)
+
+"""
+Ahora, la siguiente pregunta es: ¿Cómo se puede insertar un 
+apóstrofe en una cadena la cual está limitada por dos apóstrofes?
+A estas alturas ya se debería tener una posible respuesta o dos.
+Intenta imprimir una cadena que contenga el siguiente mensaje:
+"""
+
+# print("I'm Monty Python.")
+
+"""
+Utilizando variables
+Se tiene permitido utilizar cuantas declaraciones 
+de variables sean necesarias para lograr el objetivo del programa, por ejemplo:
+"""
+var = 1
+account_balance = 1000.0
+client_name = 'John Doe'
+print(var, account_balance, client_name)
+print(var)
